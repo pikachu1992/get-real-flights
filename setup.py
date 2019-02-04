@@ -7,7 +7,7 @@ setup(
     author="Tiago Vicente",
     author_email="tmavicente@gmail.com",
     description="A small script with real flights",
-    url="https://github.com/pikachu1992/get_real_flights",
+    url="https://github.com/pikachu1992/get-real-flights",
     packages=find_packages(),
     zip_safe=True
 )
