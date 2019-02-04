@@ -1,5 +1,3 @@
-## Get Real Flights [![Build Status](https://travis-ci.com/pikachu1992/get_real_flights.svg?branch=master)](https://travis-ci.com/pikachu1992/get_real_flights)
-=======
 ## Get Real Flights [![Build Status](https://travis-ci.com/pikachu1992/get-real-flights.svg?branch=master)](https://travis-ci.com/pikachu1992/get-real-flights)
 
 Generates a random real flights from FlightRadar24 data..
