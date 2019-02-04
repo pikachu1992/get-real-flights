@@ -91,16 +91,15 @@ async def main():
     """
     
     airlines = ['TAP']
-    while True:
-        data = get_airlines.get_airlines()
-        for item in airlines:
-            for airline in data:           
-                if item == airline[0]:
-                    await get_flights_by_company(item)
-        with open('data/flight_radar.json', 'w') as file:
-            file.write(json.dumps(RESULT_LIST, indent=4))
-        make_route.make_route()
-        await asyncio.sleep(5)
+    data = get_airlines.get_airlines()
+    for item in airlines:
+        for airline in data:           
+            if item == airline[0]:
+                await get_flights_by_company(item)
+    with open('data/flight_radar.json', 'w') as file:
+        file.write(json.dumps(RESULT_LIST, indent=4))
+    make_route.make_route()
+    await asyncio.sleep(5)
 
 
 def get_start():
