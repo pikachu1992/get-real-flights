@@ -2,6 +2,7 @@
 import json
 from src import AIRPORT_SETTINGS
 from datetime import datetime
+from src import get_metars
 from collections import defaultdict
 
 def make_route():
@@ -35,7 +36,8 @@ def make_route():
                 except:
                     print((d_icao, a_icao))
                     pass
-        
+            dep_metar = get_metars.get_metar(d_icao)
+            arr_metar = get_metars.get_metar(a_icao)
         if len(items_list[item][0]) != 0:
             if route != '':
                 output[item].append({
@@ -44,7 +46,9 @@ def make_route():
                             'aircraft':aircraft,
                             'dep_time':dep_time,
                             'arr_time':arr_time,
-                            'route':route
+                            'route':route,
+                            'dep_metar':dep_metar,
+                            'arr_metar':arr_metar
                             })     
 
 

@@ -1,10 +1,9 @@
 language: python
 python:
   - "3.7-dev"  # 3.7 development branch
-before_script:
-    - pip install --upgrade pip
-    - pip install -r dev-requirements.txt
-    - pip install .
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
 # command to run tests
 script:
-  - python setup.py install
+  - python test.py
