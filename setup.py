@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='get-real-flights',
-    version='0.1',
+    version='0.2',
     author="Tiago Vicente",
     author_email="tmavicente@gmail.com",
     description="A small script with real flights",
