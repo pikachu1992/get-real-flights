@@ -6,4 +6,4 @@ before_script:
     - pip install get-real-flights
 # command to run tests
 script:
-  - python test.py
+  - python setup install
