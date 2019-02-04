@@ -11,7 +11,6 @@ Generates a random real flights from FlightRadar24 data..
 ## Options:
 
 
-
 ## Usage Examples
 > `python3 run.py`
 
