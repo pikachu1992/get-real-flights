@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import json
-from src import AIRPORT_SETTINGS
 from datetime import datetime
 from src import get_metars
 from collections import defaultdict
@@ -32,7 +31,9 @@ def make_route():
 
             if d_icao != '':
                 try:
-                    route = AIRPORT_SETTINGS[d_icao][a_icao]['ROUTE']
+                    with open('data/routes.json', 'r') as file:
+                        items = json.loads(file.read())
+                    route = items[d_icao][a_icao]['ROUTE']
                 except:
                     print((d_icao, a_icao))
                     pass
