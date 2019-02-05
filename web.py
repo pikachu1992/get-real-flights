@@ -19,6 +19,14 @@ def get_flight():
     max_flights = int(request.form['max_flights'])
     flights = get_flights.get_flights(max_flights)
     output = ''
+    try:
+        metar_dep = flights[item][0][0]['dep_metar']['Raw-Report']
+    except:
+        metar_dep = 'NOT AVAILABLE'
+    try:
+        metar_arr = flights[item][0][0]['arr_metar']['Raw-Report']
+    except:
+        metar_arr = 'NOT AVAILABLE'
 
     for item in flights:
         output += '''
@@ -40,8 +48,8 @@ def get_flight():
                     flights[item][0][0]['route'],
                     flights[item][0][0]['dep_time'],
                     flights[item][0][0]['arr_time'],
-                    flights[item][0][0]['dep_metar']['Raw-Report'],
-                    flights[item][0][0]['arr_metar']['Raw-Report'],
+                    metar_dep,
+                    metar_arr,
                 )
     return output
 
