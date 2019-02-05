@@ -12,11 +12,11 @@ def hello():
 @app.route("/get_flights")
 def get_flight_page():
                 
-    return render_template('web/get_flights.html')
+    return render_template('web/get_flights.html', total=len(get_flights.get_flights('')))
 
 @app.route("/get_flights_result", methods = ['POST'])
 def get_flight():
-    max_flights = int(request.form['max_flights'])
+    max_flights = request.form['max_flights']
     flights = get_flights.get_flights(max_flights)
     output = ''
 

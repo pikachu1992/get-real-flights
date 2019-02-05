@@ -1,106 +1,4 @@
 {
-    "TAP084": [
-        {
-            "origin": {
-                "SBGR": [
-                    {
-                        "latitude": -23.431999,
-                        "longitude": -46.469501
-                    }
-                ]
-            },
-            "destination": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
-                    }
-                ]
-            },
-            "aircraft": "A332",
-            "dep_time": "2019-02-05 04:10",
-            "arr_time": "2019-02-05 14:00",
-            "route": "VUMEV UZ14 SILUB BHZ UZ61 QUARU UN866 BANGU UN866 MAGNO UN866 DEKON UN866 IREDO UN866 TENPA UN866 BEXAL LIGRA",
-            "dep_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:47:58 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:03 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1020",
-                "Cloud-List": [
-                    [
-                        "BKN",
-                        "013"
-                    ]
-                ],
-                "Flight-Rules": "MVFR",
-                "Other-List": [],
-                "Sanitized": "SBGR 051300Z 10004KT 9999 BKN013 20/18 Q1020",
-                "Visibility": "9999",
-                "Wind-Direction": "100",
-                "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "SBGR 051300Z 10004KT 9999 BKN013 20/18 Q1020",
-                "Remarks": "",
-                "Station": "SBGR",
-                "Time": "051300Z",
-                "Dewpoint": "18",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "20",
-                "Wind-Variable-Dir": [],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            },
-            "arr_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:47:59 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:01 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1029",
-                "Cloud-List": [],
-                "Flight-Rules": "VFR",
-                "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Visibility": "CAVOK",
-                "Wind-Direction": "070",
-                "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Remarks": "",
-                "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "14",
-                "Wind-Variable-Dir": [
-                    "010",
-                    "100"
-                ],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            }
-        }
-    ],
     "TAP288": [
         {
             "origin": {
@@ -125,8 +23,8 @@
             "route": "EPLAT UR526 LIKAD UW118 IT UG861 DLA UA604 VOSBO UA604 EREBO UA604 SIHAR UA604 BAY UB738 LIGUM UL195 MGA UM744 LASIB GAIOS",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:47:59 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:57 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:34 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:02 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1010",
@@ -174,33 +72,33 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:00 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:34 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -215,6 +113,14 @@
     "TAP1527": [
         {
             "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
                 "DGAA": [
                     {
                         "latitude": 5.605186,
@@ -222,50 +128,40 @@
                     }
                 ]
             },
-            "destination": {
-                "FPST": [
-                    {
-                        "latitude": 0.378175,
-                        "longitude": 6.712153
-                    }
-                ]
-            },
             "aircraft": "A320",
-            "dep_time": "2019-02-05 16:00",
-            "arr_time": "2019-02-05 17:40",
-            "route": "ACC UY149 GANBI 0230N00100E GAPAK UA400 STM",
+            "dep_time": "2019-02-05 09:40",
+            "arr_time": "2019-02-05 15:15",
+            "route": "NAKOS TAKAV ESS UR724 ADM UR977 BULIS UM372 SADKA UM372 TAMUL UG851 BKO UP685 KEMOK",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:00 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:36 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:35 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
-                "Altimeter": "1011",
-                "Cloud-List": [
-                    [
-                        "FEW",
-                        "032"
-                    ]
-                ],
+                "Altimeter": "1029",
+                "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "DGAA 051200Z 29013KT 9999 FEW032 32/24 Q1011 NOSIG",
-                "Visibility": "9999",
-                "Wind-Direction": "290",
-                "Wind-Gust": "",
-                "Wind-Speed": "13",
-                "Raw-Report": "DGAA 051200Z 29013KT 9999 FEW032 32/24 Q1011 NOSIG",
-                "Remarks": "NOSIG",
-                "Station": "DGAA",
-                "Time": "051200Z",
-                "Dewpoint": "24",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "32",
-                "Wind-Variable-Dir": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
                 "Units": {
                     "Altimeter": "hPa",
                     "Altitude": "ft",
@@ -276,10 +172,43 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:35 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:25 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
-                "Error": "Station Lookup Error: METAR not found for FPST. There might not be a current report in ADDS"
+                "Altimeter": "1009",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "042"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "DGAA 051400Z 23010KT 9999 BKN042 33/23 Q1009 NOSIG",
+                "Visibility": "9999",
+                "Wind-Direction": "230",
+                "Wind-Gust": "",
+                "Wind-Speed": "10",
+                "Raw-Report": "DGAA 051400Z 23010KT 9999 BKN042 33/23 Q1009 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "DGAA",
+                "Time": "051400Z",
+                "Dewpoint": "23",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "33",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
             }
         }
     ],
@@ -307,33 +236,33 @@
             "route": "LIGRA BEXAL SAMAR LIMAL UN873 ISOKA UN873 CVS UN873 TASIL UN873 INTOL UN873 VUNOK UN873 NTL UZ14 EVPAB UZ14 TOMAS UZ21 OPVUK",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:02 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:36 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -345,8 +274,8 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:02 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:47 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:36 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:23 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1019",
@@ -358,22 +287,22 @@
                 ],
                 "Flight-Rules": "MVFR",
                 "Other-List": [],
-                "Sanitized": "SBCF 051300Z 36006KT 9999 BKN030 25/17 Q1019",
+                "Sanitized": "SBCF 051400Z 32006KT 9999 BKN030 26/17 Q1019",
                 "Visibility": "9999",
-                "Wind-Direction": "360",
+                "Wind-Direction": "320",
                 "Wind-Gust": "",
                 "Wind-Speed": "06",
-                "Raw-Report": "SBCF 051300Z 36006KT 9999 BKN030 25/17 Q1019",
+                "Raw-Report": "SBCF 051400Z 32006KT 9999 BKN030 26/17 Q1019",
                 "Remarks": "",
                 "Station": "SBCF",
-                "Time": "051300Z",
+                "Time": "051400Z",
                 "Dewpoint": "17",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "25",
+                "Temperature": "26",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -409,33 +338,33 @@
             "route": "LIGRA BEXAL SAMAR LIMAL UN873 ISOKA UN873 CVS UN873 TASIL UN873 ORARO UN873 INTOL UN873 VUNOK UN873 NTL UZ14 AVILA UZ59 CARVA",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:03 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:37 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -447,15 +376,15 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:03 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:26 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:37 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:12 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1019",
                 "Cloud-List": [
                     [
                         "SCT",
-                        "025"
+                        "026"
                     ],
                     [
                         "BKN",
@@ -464,22 +393,22 @@
                 ],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "SBBR 051300Z 11011KT 9999 SCT025 BKN100 24/18 Q1019",
+                "Sanitized": "SBBR 051400Z 12010KT 9999 SCT026 BKN100 26/19 Q1019",
                 "Visibility": "9999",
-                "Wind-Direction": "110",
+                "Wind-Direction": "120",
                 "Wind-Gust": "",
-                "Wind-Speed": "11",
-                "Raw-Report": "SBBR 051300Z 11011KT 9999 SCT025 BKN100 24/18 Q1019",
+                "Wind-Speed": "10",
+                "Raw-Report": "SBBR 051400Z 12010KT 9999 SCT026 BKN100 26/19 Q1019",
                 "Remarks": "",
                 "Station": "SBBR",
-                "Time": "051300Z",
-                "Dewpoint": "18",
+                "Time": "051400Z",
+                "Dewpoint": "19",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "24",
+                "Temperature": "26",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -515,23 +444,23 @@
             "route": "LAVPA DIRMA VEDEL PIGOR GUNTI 35N020W 30N025W 25N028W ULTEM XUVIT 10N032W NANIK UN741 JOBER UN741 VADIR UN741 FLZ UZ29 EVNOR UZ29 OGMUK",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:04 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:08 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:38 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Visibility": "CAVOK",
-                "Wind-Direction": "280",
+                "Wind-Direction": "290",
                 "Wind-Gust": "",
-                "Wind-Speed": "03",
-                "Raw-Report": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Remarks": "",
                 "Station": "LPPR",
-                "Time": "051330Z",
+                "Time": "051400Z",
                 "Dewpoint": "08",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -540,7 +469,7 @@
                 "Runway-Vis-List": [],
                 "Temperature": "14",
                 "Wind-Variable-Dir": [
-                    "230",
+                    "260",
                     "320"
                 ],
                 "Units": {
@@ -553,43 +482,43 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:04 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:23 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:38 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:02 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1016",
                 "Cloud-List": [
                     [
-                        "FEW",
-                        "006"
+                        "SCT",
+                        "030"
                     ],
                     [
                         "BKN",
-                        "012"
+                        "040"
                     ],
                     [
                         "OVC",
-                        "030"
+                        "100"
                     ]
                 ],
-                "Flight-Rules": "MVFR",
+                "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "SBGL 051300Z 13006KT 9999 FEW006 BKN012 OVC030 23/21 Q1016",
+                "Sanitized": "SBGL 051400Z 13003KT 9999 SCT030 BKN040 OVC100 24/21 Q1016",
                 "Visibility": "9999",
                 "Wind-Direction": "130",
                 "Wind-Gust": "",
-                "Wind-Speed": "06",
-                "Raw-Report": "SBGL 051300Z 13006KT 9999 FEW006 BKN012 OVC030 23/21 Q1016",
+                "Wind-Speed": "03",
+                "Raw-Report": "SBGL 051400Z 13003KT 9999 SCT030 BKN040 OVC100 24/21 Q1016",
                 "Remarks": "",
                 "Station": "SBGL",
-                "Time": "051300Z",
+                "Time": "051400Z",
                 "Dewpoint": "21",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "23",
+                "Temperature": "24",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -625,33 +554,33 @@
             "route": "LIGRA BEXAL SAMAR LIMAL UN873 NTL UZ14 TOMAS UZ21 MOXEP",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:05 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:39 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -663,35 +592,39 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:05 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:05 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:39 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:53 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
-                "Altimeter": "1020",
+                "Altimeter": "1019",
                 "Cloud-List": [
                     [
                         "BKN",
-                        "013"
+                        "015"
+                    ],
+                    [
+                        "BKN",
+                        "021"
                     ]
                 ],
                 "Flight-Rules": "MVFR",
                 "Other-List": [],
-                "Sanitized": "SBGR 051300Z 10004KT 9999 BKN013 20/18 Q1020",
+                "Sanitized": "SBGR 051400Z 08006KT 9999 BKN015 BKN021 22/19 Q1019",
                 "Visibility": "9999",
-                "Wind-Direction": "100",
+                "Wind-Direction": "080",
                 "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "SBGR 051300Z 10004KT 9999 BKN013 20/18 Q1020",
+                "Wind-Speed": "06",
+                "Raw-Report": "SBGR 051400Z 08006KT 9999 BKN015 BKN021 22/19 Q1019",
                 "Remarks": "",
                 "Station": "SBGR",
-                "Time": "051300Z",
-                "Dewpoint": "18",
+                "Time": "051400Z",
+                "Dewpoint": "19",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "20",
+                "Temperature": "22",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -727,33 +660,33 @@
             "route": "LIGRA BEXAL GOMER 2420N 1625N 0730N 0630N TASIL UN873 NTL UZ14 TOMAS UZ21 GEVGA CXS GLUE TINA ABOC POSBI",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:06 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:40 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -765,247 +698,38 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:06 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:04 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:40 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:26 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1020",
                 "Cloud-List": [
                     [
-                        "SCT",
+                        "BKN",
                         "043"
                     ]
                 ],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "SBPA 051300Z 11007KT 070V150 9999 SCT043 25/16 Q1020",
+                "Sanitized": "SBPA 051400Z 10007KT 070V130 9999 BKN043 26/15 Q1020",
                 "Visibility": "9999",
-                "Wind-Direction": "110",
+                "Wind-Direction": "100",
                 "Wind-Gust": "",
                 "Wind-Speed": "07",
-                "Raw-Report": "SBPA 051300Z 11007KT 070V150 9999 SCT043 25/16 Q1020",
+                "Raw-Report": "SBPA 051400Z 10007KT 070V130 9999 BKN043 26/15 Q1020",
                 "Remarks": "",
                 "Station": "SBPA",
-                "Time": "051300Z",
-                "Dewpoint": "16",
+                "Time": "051400Z",
+                "Dewpoint": "15",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "25",
+                "Temperature": "26",
                 "Wind-Variable-Dir": [
                     "070",
-                    "150"
-                ],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            }
-        }
-    ],
-    "TAP943": [
-        {
-            "origin": {
-                "LSGG": [
-                    {
-                        "latitude": 46.23806,
-                        "longitude": 6.10895
-                    }
-                ]
-            },
-            "destination": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
-                    }
-                ]
-            },
-            "aircraft": "A320",
-            "dep_time": "2019-02-05 11:20",
-            "arr_time": "2019-02-05 13:50",
-            "route": "DEPUL UY305 LERGA UN869 AGN PIPOR UL866 PPN UN976 ARDID INBOM",
-            "dep_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:07 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:15 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1027",
-                "Cloud-List": [],
-                "Flight-Rules": "VFR",
-                "Other-List": [],
-                "Sanitized": "LSGG 051320Z 04004KT 340V090 CAVOK 03/M02 Q1027 NOSIG",
-                "Visibility": "CAVOK",
-                "Wind-Direction": "040",
-                "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "LSGG 051320Z 04004KT 340V090 CAVOK 03/M02 Q1027 NOSIG",
-                "Remarks": "NOSIG",
-                "Station": "LSGG",
-                "Time": "051320Z",
-                "Dewpoint": "M02",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "03",
-                "Wind-Variable-Dir": [
-                    "340",
-                    "090"
-                ],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            },
-            "arr_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:07 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1029",
-                "Cloud-List": [],
-                "Flight-Rules": "VFR",
-                "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Visibility": "CAVOK",
-                "Wind-Direction": "070",
-                "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Remarks": "",
-                "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "14",
-                "Wind-Variable-Dir": [
-                    "010",
-                    "100"
-                ],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            }
-        }
-    ],
-    "TAP437": [
-        {
-            "origin": {
-                "LFPO": [
-                    {
-                        "latitude": 48.723331,
-                        "longitude": 2.379444
-                    }
-                ]
-            },
-            "destination": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
-                    }
-                ]
-            },
-            "aircraft": "A319",
-            "dep_time": "2019-02-05 11:40",
-            "arr_time": "2019-02-05 14:05",
-            "route": "LGL UT176 KURIS UN872 ERIGA UZ218 BAKUP BATAX INBOM",
-            "dep_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:08 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:19 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1027",
-                "Cloud-List": [
-                    [
-                        "FEW",
-                        "018"
-                    ],
-                    [
-                        "SCT",
-                        "260"
-                    ]
-                ],
-                "Flight-Rules": "VFR",
-                "Other-List": [],
-                "Sanitized": "LFPO 051330Z 21005KT 150V240 9999 FEW018 SCT260 08/03 Q1027 NOSIG",
-                "Visibility": "9999",
-                "Wind-Direction": "210",
-                "Wind-Gust": "",
-                "Wind-Speed": "05",
-                "Raw-Report": "LFPO 051330Z 21005KT 150V240 9999 FEW018 SCT260 08/03 Q1027 NOSIG",
-                "Remarks": "NOSIG",
-                "Station": "LFPO",
-                "Time": "051330Z",
-                "Dewpoint": "03",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "08",
-                "Wind-Variable-Dir": [
-                    "150",
-                    "240"
-                ],
-                "Units": {
-                    "Altimeter": "hPa",
-                    "Altitude": "ft",
-                    "Temperature": "C",
-                    "Visibility": "m",
-                    "Wind-Speed": "kt"
-                }
-            },
-            "arr_metar": {
-                "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:08 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
-                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
-                },
-                "Altimeter": "1029",
-                "Cloud-List": [],
-                "Flight-Rules": "VFR",
-                "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Visibility": "CAVOK",
-                "Wind-Direction": "070",
-                "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
-                "Remarks": "",
-                "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
-                "Remarks-Info": {
-                    "Dew-Decimal": "",
-                    "Temp-Decimal": ""
-                },
-                "Runway-Vis-List": [],
-                "Temperature": "14",
-                "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "130"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1041,35 +765,35 @@
             "route": "CIV UN872 ERIGA UZ218 BAKUP BATAX INBOM",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:09 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:39 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:41 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:30:52 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1027",
                 "Cloud-List": [
                     [
-                        "BKN",
-                        "030"
+                        "SCT",
+                        "032"
                     ]
                 ],
-                "Flight-Rules": "MVFR",
+                "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "EBBR 051320Z 22009KT 9999 BKN030 05/03 Q1027 TEMPO SCT030",
+                "Sanitized": "EBBR 051420Z 21007KT 9999 SCT032 06/03 Q1027 NOSIG",
                 "Visibility": "9999",
-                "Wind-Direction": "220",
+                "Wind-Direction": "210",
                 "Wind-Gust": "",
-                "Wind-Speed": "09",
-                "Raw-Report": "EBBR 051320Z 22009KT 9999 BKN030 05/03 Q1027 TEMPO SCT030",
-                "Remarks": "TEMPO SCT030",
+                "Wind-Speed": "07",
+                "Raw-Report": "EBBR 051420Z 21007KT 9999 SCT032 06/03 Q1027 NOSIG",
+                "Remarks": "NOSIG",
                 "Station": "EBBR",
-                "Time": "051320Z",
+                "Time": "051420Z",
                 "Dewpoint": "03",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "05",
+                "Temperature": "06",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1081,33 +805,33 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:09 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:41 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1143,23 +867,23 @@
             "route": "OSPEN ABRUK SETAL DETSA GEKBA VAMTU UM984 KOLON UZ184 GANGU UM984 DIVKO UN975 CCS EXONA",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:10 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:53 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:42 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:38 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1028",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LOWW 051320Z 03006KT 010V070 CAVOK 03/M03 Q1028 NOSIG",
+                "Sanitized": "LOWW 051350Z 02007KT CAVOK 03/M03 Q1028 NOSIG",
                 "Visibility": "CAVOK",
-                "Wind-Direction": "030",
+                "Wind-Direction": "020",
                 "Wind-Gust": "",
-                "Wind-Speed": "06",
-                "Raw-Report": "LOWW 051320Z 03006KT 010V070 CAVOK 03/M03 Q1028 NOSIG",
+                "Wind-Speed": "07",
+                "Raw-Report": "LOWW 051350Z 02007KT CAVOK 03/M03 Q1028 NOSIG",
                 "Remarks": "NOSIG",
                 "Station": "LOWW",
-                "Time": "051320Z",
+                "Time": "051350Z",
                 "Dewpoint": "M03",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -1167,10 +891,7 @@
                 },
                 "Runway-Vis-List": [],
                 "Temperature": "03",
-                "Wind-Variable-Dir": [
-                    "010",
-                    "070"
-                ],
+                "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
                     "Altitude": "ft",
@@ -1181,33 +902,33 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:10 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:42 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1243,23 +964,23 @@
             "route": "TURON A5 ASDEB LOTEE UN741 MOKOR UN873 FERDI UY18 DENUT",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:11 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:08 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:43 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Visibility": "CAVOK",
-                "Wind-Direction": "280",
+                "Wind-Direction": "290",
                 "Wind-Gust": "",
-                "Wind-Speed": "03",
-                "Raw-Report": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Remarks": "",
                 "Station": "LPPR",
-                "Time": "051330Z",
+                "Time": "051400Z",
                 "Dewpoint": "08",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -1268,7 +989,7 @@
                 "Runway-Vis-List": [],
                 "Temperature": "14",
                 "Wind-Variable-Dir": [
-                    "230",
+                    "260",
                     "320"
                 ],
                 "Units": {
@@ -1281,8 +1002,8 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:11 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:41 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:43 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:56 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1026",
@@ -1293,34 +1014,144 @@
                     ],
                     [
                         "BKN",
-                        "003"
+                        "004"
                     ],
                     [
-                        "OVC",
-                        "004"
+                        "BKN",
+                        "006"
                     ]
                 ],
                 "Flight-Rules": "LIFR",
                 "Other-List": [
                     "BR"
                 ],
-                "Sanitized": "EHAM 051325Z 21008KT 1800 BR FEW002 BKN003 OVC004 05/05 Q1026 BECMG SCT003 BKN004",
-                "Visibility": "1800",
-                "Wind-Direction": "210",
+                "Sanitized": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Visibility": "4500",
+                "Wind-Direction": "190",
                 "Wind-Gust": "",
-                "Wind-Speed": "08",
-                "Raw-Report": "EHAM 051325Z 21008KT 1800 BR FEW002 BKN003 OVC004 05/05 Q1026 BECMG SCT003 BKN004",
-                "Remarks": "BECMG SCT003 BKN004",
+                "Wind-Speed": "07",
+                "Raw-Report": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Remarks": "TEMPO BKN003",
                 "Station": "EHAM",
-                "Time": "051325Z",
+                "Time": "051425Z",
                 "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "05",
-                "Wind-Variable-Dir": [],
+                "Temperature": "06",
+                "Wind-Variable-Dir": [
+                    "160",
+                    "220"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP557J": [
+        {
+            "origin": {
+                "EDDM": [
+                    {
+                        "latitude": 48.353779,
+                        "longitude": 11.78608
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 11:40",
+            "arr_time": "2019-02-05 14:55",
+            "route": "MERSI Y100 TRA Z69 OLBEN UN869 AGN PIPOR UL866 PPN UN976 ARDID INBOM",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:44 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:48 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "005"
+                    ]
+                ],
+                "Flight-Rules": "IFR",
+                "Other-List": [
+                    "BR"
+                ],
+                "Sanitized": "EDDM 051420Z 30003KT 240V330 4000 BR BKN005 M03/M04 Q1029 TEMPO 5000",
+                "Visibility": "4000",
+                "Wind-Direction": "300",
+                "Wind-Gust": "",
+                "Wind-Speed": "03",
+                "Raw-Report": "EDDM 051420Z 30003KT 240V330 4000 BR BKN005 M03/M04 Q1029 TEMPO 5000",
+                "Remarks": "TEMPO 5000",
+                "Station": "EDDM",
+                "Time": "051420Z",
+                "Dewpoint": "M04",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "M03",
+                "Wind-Variable-Dir": [
+                    "240",
+                    "330"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:44 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
                 "Units": {
                     "Altimeter": "hPa",
                     "Altitude": "ft",
@@ -1355,33 +1186,33 @@
             "route": "BUSEN GUNTI 39N020W 36N030W 32N040W 30N050W AMENO M593 GRATX ZFP",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:12 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:45 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1393,39 +1224,39 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:12 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:27 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:45 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:30:56 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
-                "Altimeter": "3008",
+                "Altimeter": "3009",
                 "Cloud-List": [
                     [
                         "FEW",
-                        "015"
+                        "020"
                     ],
                     [
-                        "FEW",
+                        "SCT",
                         "250"
                     ]
                 ],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "KMIA 051253Z 01003KT 10SM FEW015 FEW250 19/18 A3008 RMK AO2 SLP184 T01940178",
+                "Sanitized": "KMIA 051353Z 00000KT 10SM FEW020 SCT250 22/19 A3009 RMK AO2 SLP191 T02170189",
                 "Visibility": "10",
-                "Wind-Direction": "010",
+                "Wind-Direction": "000",
                 "Wind-Gust": "",
-                "Wind-Speed": "03",
-                "Raw-Report": "KMIA 051253Z 01003KT 10SM FEW015 FEW250 19/18 A3008 RMK AO2 SLP184 T01940178",
-                "Remarks": "RMK AO2 SLP184 T01940178",
+                "Wind-Speed": "00",
+                "Raw-Report": "KMIA 051353Z 00000KT 10SM FEW020 SCT250 22/19 A3009 RMK AO2 SLP191 T02170189",
+                "Remarks": "RMK AO2 SLP191 T02170189",
                 "Station": "KMIA",
-                "Time": "051253Z",
-                "Dewpoint": "18",
+                "Time": "051353Z",
+                "Dewpoint": "19",
                 "Remarks-Info": {
-                    "Dew-Decimal": "17.8",
-                    "Temp-Decimal": "19.4"
+                    "Dew-Decimal": "18.9",
+                    "Temp-Decimal": "21.7"
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "19",
+                "Temperature": "22",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "inHg",
@@ -1461,30 +1292,32 @@
             "route": "VEBIT T50 ROTOS UZ669 VADAR NINTU UN869 ZAR UZ245 CJN UN975 CCS",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:13 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:48 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:46 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:42 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [
                     [
-                        "OVC",
+                        "FEW",
                         "006"
+                    ],
+                    [
+                        "OVC",
+                        "008"
                     ]
                 ],
                 "Flight-Rules": "IFR",
-                "Other-List": [
-                    "BR"
-                ],
-                "Sanitized": "LSZH 051320Z 04003KT 330V110 5000 BR OVC006 M01/M03 Q1029 NOSIG",
+                "Other-List": [],
+                "Sanitized": "LSZH 051420Z VRB02KT 5000 FEW006 OVC008 M01/M03 Q1029 NOSIG",
                 "Visibility": "5000",
-                "Wind-Direction": "040",
+                "Wind-Direction": "VRB",
                 "Wind-Gust": "",
-                "Wind-Speed": "03",
-                "Raw-Report": "LSZH 051320Z 04003KT 330V110 5000 BR OVC006 M01/M03 Q1029 NOSIG",
+                "Wind-Speed": "02",
+                "Raw-Report": "LSZH 051420Z VRB02KT 5000 FEW006 OVC008 M01/M03 Q1029 NOSIG",
                 "Remarks": "NOSIG",
                 "Station": "LSZH",
-                "Time": "051320Z",
+                "Time": "051420Z",
                 "Dewpoint": "M03",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -1492,10 +1325,7 @@
                 },
                 "Runway-Vis-List": [],
                 "Temperature": "M01",
-                "Wind-Variable-Dir": [
-                    "330",
-                    "110"
-                ],
+                "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
                     "Altitude": "ft",
@@ -1506,33 +1336,33 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:13 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:46 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1568,33 +1398,33 @@
             "route": "DEPUL UY305 LERGA UN869 AGN PPN UN976 ZMR A33 BARKO T5 MALIS",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:14 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:15 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:47 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:50 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1027",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LSGG 051320Z 04004KT 340V090 CAVOK 03/M02 Q1027 NOSIG",
+                "Sanitized": "LSGG 051420Z 04005KT 360V070 CAVOK 04/M02 Q1027 NOSIG",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "040",
                 "Wind-Gust": "",
-                "Wind-Speed": "04",
-                "Raw-Report": "LSGG 051320Z 04004KT 340V090 CAVOK 03/M02 Q1027 NOSIG",
+                "Wind-Speed": "05",
+                "Raw-Report": "LSGG 051420Z 04005KT 360V070 CAVOK 04/M02 Q1027 NOSIG",
                 "Remarks": "NOSIG",
                 "Station": "LSGG",
-                "Time": "051320Z",
+                "Time": "051420Z",
                 "Dewpoint": "M02",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "03",
+                "Temperature": "04",
                 "Wind-Variable-Dir": [
-                    "340",
-                    "090"
+                    "360",
+                    "070"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1606,23 +1436,23 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:14 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:08 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:47 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Visibility": "CAVOK",
-                "Wind-Direction": "280",
+                "Wind-Direction": "290",
                 "Wind-Gust": "",
-                "Wind-Speed": "03",
-                "Raw-Report": "LPPR 051330Z 28003KT 230V320 CAVOK 14/08 Q1029",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
                 "Remarks": "",
                 "Station": "LPPR",
-                "Time": "051330Z",
+                "Time": "051400Z",
                 "Dewpoint": "08",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -1631,8 +1461,438 @@
                 "Runway-Vis-List": [],
                 "Temperature": "14",
                 "Wind-Variable-Dir": [
-                    "230",
+                    "260",
                     "320"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1331": [
+        {
+            "origin": {
+                "EGKK": [
+                    {
+                        "latitude": 51.148048,
+                        "longitude": -0.19027
+                    }
+                ]
+            },
+            "destination": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:00",
+            "arr_time": "2019-02-05 15:15",
+            "route": "SAM LORKU UN866 KOLEK UN866 KORUL ELTEP T328 ASPOR",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:48 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:32 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1024",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "002"
+                    ]
+                ],
+                "Flight-Rules": "LIFR",
+                "Other-List": [],
+                "Sanitized": "EGKK 051420Z 19008KT 150V220 6000 BKN002 06/05 Q1024",
+                "Visibility": "6000",
+                "Wind-Direction": "190",
+                "Wind-Gust": "",
+                "Wind-Speed": "08",
+                "Raw-Report": "EGKK 051420Z 19008KT 150V220 6000 BKN002 06/05 Q1024",
+                "Remarks": "",
+                "Station": "EGKK",
+                "Time": "051420Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "06",
+                "Wind-Variable-Dir": [
+                    "150",
+                    "220"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:48 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "290",
+                "Wind-Gust": "",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Remarks": "",
+                "Station": "LPPR",
+                "Time": "051400Z",
+                "Dewpoint": "08",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "14",
+                "Wind-Variable-Dir": [
+                    "260",
+                    "320"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP764": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "ENGM": [
+                    {
+                        "latitude": 60.193909,
+                        "longitude": 11.10036
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 13:00",
+            "arr_time": "2019-02-05 17:10",
+            "route": "IXIDA TOSDI UN745 ZMR UN873 SPY UZ704 KONOM UZ733 GREFI DANKO M604 SVA M609 RIPAM",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:49 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:49 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:15 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1014",
+                "Cloud-List": [
+                    [
+                        "OVC",
+                        "018"
+                    ]
+                ],
+                "Flight-Rules": "IFR",
+                "Other-List": [
+                    "-SN",
+                    "BR"
+                ],
+                "Sanitized": "ENGM 051420Z 36006KT 2600 -SN BR OVC018 M02/M04 Q1014 BECMG 8000",
+                "Visibility": "2600",
+                "Wind-Direction": "360",
+                "Wind-Gust": "",
+                "Wind-Speed": "06",
+                "Raw-Report": "ENGM 051420Z 36006KT 2600 -SN BR OVC018 M02/M04 Q1014 BECMG 8000",
+                "Remarks": "BECMG 8000",
+                "Station": "ENGM",
+                "Time": "051420Z",
+                "Dewpoint": "M04",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "M02",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1336": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EGKK": [
+                    {
+                        "latitude": 51.148048,
+                        "longitude": -0.19027
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 13:05",
+            "arr_time": "2019-02-05 15:45",
+            "route": "INBOM ABUPI ERWAN UM30 QPR UN472 REVTU UP87 DOMUT",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:50 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:50 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:32 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1024",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "002"
+                    ]
+                ],
+                "Flight-Rules": "LIFR",
+                "Other-List": [],
+                "Sanitized": "EGKK 051420Z 19008KT 150V220 6000 BKN002 06/05 Q1024",
+                "Visibility": "6000",
+                "Wind-Direction": "190",
+                "Wind-Gust": "",
+                "Wind-Speed": "08",
+                "Raw-Report": "EGKK 051420Z 19008KT 150V220 6000 BKN002 06/05 Q1024",
+                "Remarks": "",
+                "Station": "EGKK",
+                "Time": "051420Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "06",
+                "Wind-Variable-Dir": [
+                    "150",
+                    "220"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP673": [
+        {
+            "origin": {
+                "EHAM": [
+                    {
+                        "latitude": 52.308609,
+                        "longitude": 4.763889
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A20N",
+            "dep_time": "2019-02-05 12:40",
+            "arr_time": "2019-02-05 15:40",
+            "route": "WOODY UN872 LESDO UM728 KOVIN UN872 ERIGA UZ218 BAKUP BATAX INBOM",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:51 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:56 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1026",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "002"
+                    ],
+                    [
+                        "BKN",
+                        "004"
+                    ],
+                    [
+                        "BKN",
+                        "006"
+                    ]
+                ],
+                "Flight-Rules": "LIFR",
+                "Other-List": [
+                    "BR"
+                ],
+                "Sanitized": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Visibility": "4500",
+                "Wind-Direction": "190",
+                "Wind-Gust": "",
+                "Wind-Speed": "07",
+                "Raw-Report": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Remarks": "TEMPO BKN003",
+                "Station": "EHAM",
+                "Time": "051425Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "06",
+                "Wind-Variable-Dir": [
+                    "160",
+                    "220"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:51 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1668,33 +1928,33 @@
             "route": "IXIDA TOSDI UN745 ZMR UN873 FERDI UY18 DENUT",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:15 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:52 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "14",
+                "Temperature": "15",
                 "Wind-Variable-Dir": [
-                    "010",
-                    "100"
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1706,8 +1966,8 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:15 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:47:41 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:52 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:56 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1026",
@@ -1718,34 +1978,245 @@
                     ],
                     [
                         "BKN",
-                        "003"
+                        "004"
                     ],
                     [
-                        "OVC",
-                        "004"
+                        "BKN",
+                        "006"
                     ]
                 ],
                 "Flight-Rules": "LIFR",
                 "Other-List": [
                     "BR"
                 ],
-                "Sanitized": "EHAM 051325Z 21008KT 1800 BR FEW002 BKN003 OVC004 05/05 Q1026 BECMG SCT003 BKN004",
-                "Visibility": "1800",
-                "Wind-Direction": "210",
+                "Sanitized": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Visibility": "4500",
+                "Wind-Direction": "190",
                 "Wind-Gust": "",
-                "Wind-Speed": "08",
-                "Raw-Report": "EHAM 051325Z 21008KT 1800 BR FEW002 BKN003 OVC004 05/05 Q1026 BECMG SCT003 BKN004",
-                "Remarks": "BECMG SCT003 BKN004",
+                "Wind-Speed": "07",
+                "Raw-Report": "EHAM 051425Z 19007KT 160V220 4500 BR FEW002 BKN004 BKN006 06/05 Q1026 TEMPO BKN003",
+                "Remarks": "TEMPO BKN003",
                 "Station": "EHAM",
-                "Time": "051325Z",
+                "Time": "051425Z",
                 "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
                 },
                 "Runway-Vis-List": [],
-                "Temperature": "05",
+                "Temperature": "06",
+                "Wind-Variable-Dir": [
+                    "160",
+                    "220"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1014": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LEMD": [
+                    {
+                        "latitude": 40.493549,
+                        "longitude": -3.56676
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:15",
+            "arr_time": "2019-02-05 14:30",
+            "route": "IDBID OGERO UZ409 TLD",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:53 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:53 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:40 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1028",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LEMD 051400Z 18002KT CAVOK 15/02 Q1028 NOSIG",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "180",
+                "Wind-Gust": "",
+                "Wind-Speed": "02",
+                "Raw-Report": "LEMD 051400Z 18002KT CAVOK 15/02 Q1028 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LEMD",
+                "Time": "051400Z",
+                "Dewpoint": "02",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
                 "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1861": [
+        {
+            "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
+                "LPPD": [
+                    {
+                        "latitude": 37.74118,
+                        "longitude": -25.6978
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:20",
+            "arr_time": "2019-02-05 15:45",
+            "route": "LAVPA SOPOP ERPES 39N020W BEKUN",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:54 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "290",
+                "Wind-Gust": "",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Remarks": "",
+                "Station": "LPPR",
+                "Time": "051400Z",
+                "Dewpoint": "08",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "14",
+                "Wind-Variable-Dir": [
+                    "260",
+                    "320"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:54 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:27 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1026",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "012"
+                    ],
+                    [
+                        "BKN",
+                        "030"
+                    ]
+                ],
+                "Flight-Rules": "MVFR",
+                "Other-List": [
+                    "5000E"
+                ],
+                "Sanitized": "LPPD 051400Z 02012KT 340V040 9999 5000E FEW012 BKN030 15/13 Q1026",
+                "Visibility": "9999",
+                "Wind-Direction": "020",
+                "Wind-Gust": "",
+                "Wind-Speed": "12",
+                "Raw-Report": "LPPD 051400Z 02012KT 340V040 9999 5000E FEW012 BKN030 15/13 Q1026",
+                "Remarks": "",
+                "Station": "LPPD",
+                "Time": "051400Z",
+                "Dewpoint": "13",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "340",
+                    "040"
+                ],
                 "Units": {
                     "Altimeter": "hPa",
                     "Altitude": "ft",
@@ -1780,23 +2251,23 @@
             "route": "ESINO M126 DOPEL LUXUR UM134 VLC UN733 CJN UN975 CCS EXONA",
             "dep_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:16 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:46:21 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:55 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:57 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1016",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LIRF 051320Z 36009KT CAVOK 16/05 Q1016 NOSIG",
+                "Sanitized": "LIRF 051350Z 36009KT 330V030 CAVOK 16/05 Q1016 NOSIG",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "360",
                 "Wind-Gust": "",
                 "Wind-Speed": "09",
-                "Raw-Report": "LIRF 051320Z 36009KT CAVOK 16/05 Q1016 NOSIG",
+                "Raw-Report": "LIRF 051350Z 36009KT 330V030 CAVOK 16/05 Q1016 NOSIG",
                 "Remarks": "NOSIG",
                 "Station": "LIRF",
-                "Time": "051320Z",
+                "Time": "051350Z",
                 "Dewpoint": "05",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
@@ -1804,6 +2275,321 @@
                 },
                 "Runway-Vis-List": [],
                 "Temperature": "16",
+                "Wind-Variable-Dir": [
+                    "330",
+                    "030"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:55 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP926G": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LSZH": [
+                    {
+                        "latitude": 47.464722,
+                        "longitude": 8.549167
+                    }
+                ]
+            },
+            "aircraft": "A21N",
+            "dep_time": "2019-02-05 13:20",
+            "arr_time": "2019-02-05 16:10",
+            "route": "IXIDA TOSDI UN745 ZMR UN873 OBATO UM163 TABOV UN491 MELKO UM606 BLM",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:56 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:56 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:42 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "006"
+                    ],
+                    [
+                        "OVC",
+                        "008"
+                    ]
+                ],
+                "Flight-Rules": "IFR",
+                "Other-List": [],
+                "Sanitized": "LSZH 051420Z VRB02KT 5000 FEW006 OVC008 M01/M03 Q1029 NOSIG",
+                "Visibility": "5000",
+                "Wind-Direction": "VRB",
+                "Wind-Gust": "",
+                "Wind-Speed": "02",
+                "Raw-Report": "LSZH 051420Z VRB02KT 5000 FEW006 OVC008 M01/M03 Q1029 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LSZH",
+                "Time": "051420Z",
+                "Dewpoint": "M03",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "M01",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP694": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "ELLX": [
+                    {
+                        "latitude": 49.623329,
+                        "longitude": 6.204444
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 13:30",
+            "arr_time": "2019-02-05 16:20",
+            "route": "IXIDA TOSDI UN745 ZMR UN873 OBATO UM163 MMD",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:57 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:57 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:47 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1027",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "ELLX 051350Z 18005KT 150V210 CAVOK 05/M02 Q1027 NOSIG",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "180",
+                "Wind-Gust": "",
+                "Wind-Speed": "05",
+                "Raw-Report": "ELLX 051350Z 18005KT 150V210 CAVOK 05/M02 Q1027 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "ELLX",
+                "Time": "051350Z",
+                "Dewpoint": "M02",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "05",
+                "Wind-Variable-Dir": [
+                    "150",
+                    "210"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1359": [
+        {
+            "origin": {
+                "EGLL": [
+                    {
+                        "latitude": 51.471626,
+                        "longitude": -0.467081
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:40",
+            "arr_time": "2019-02-05 16:20",
+            "route": "GOGSI UN621 KAPEX UN63 LORKU UN866 BERAD UM30 LOTEE ABUPI XAMAX",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:58 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:01 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1023",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "005"
+                    ],
+                    [
+                        "OVC",
+                        "009"
+                    ]
+                ],
+                "Flight-Rules": "IFR",
+                "Other-List": [],
+                "Sanitized": "EGLL 051420Z AUTO 19011KT 9999 BKN005 OVC009 06/05 Q1023",
+                "Visibility": "9999",
+                "Wind-Direction": "190",
+                "Wind-Gust": "",
+                "Wind-Speed": "11",
+                "Raw-Report": "EGLL 051420Z AUTO 19011KT 9999 BKN005 OVC009 06/05 Q1023",
+                "Remarks": "",
+                "Station": "EGLL",
+                "Time": "051420Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "06",
                 "Wind-Variable-Dir": [],
                 "Units": {
                     "Altimeter": "hPa",
@@ -1815,24 +2601,221 @@
             },
             "arr_metar": {
                 "Meta": {
-                    "Timestamp": "Tue, 05 Feb 2019 13:48:16 GMT",
-                    "Cache-Timestamp": "Tue, 05 Feb 2019 13:48:01 GMT",
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:58 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
                     "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
                 },
                 "Altimeter": "1029",
                 "Cloud-List": [],
                 "Flight-Rules": "VFR",
                 "Other-List": [],
-                "Sanitized": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Visibility": "CAVOK",
                 "Wind-Direction": "070",
-                "Wind-Gust": "",
+                "Wind-Gust": "15",
                 "Wind-Speed": "04",
-                "Raw-Report": "LPPT 051330Z 07004KT 010V100 CAVOK 14/06 Q1029",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
                 "Remarks": "",
                 "Station": "LPPT",
-                "Time": "051330Z",
-                "Dewpoint": "06",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP867": [
+        {
+            "origin": {
+                "LIPZ": [
+                    {
+                        "latitude": 45.505268,
+                        "longitude": 12.35194
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 10:40",
+            "arr_time": "2019-02-05 13:50",
+            "route": "KOPER M196 OSBUL M196 LAGEN BORDI KOLON UM984 GANGU UM984 DIVKO UN975 RAMON UN975 MELON UN975 CCS EXONA",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:59 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:35 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1023",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LIPZ 051420Z VRB03KT CAVOK 11/00 Q1023 NOSIG",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "VRB",
+                "Wind-Gust": "",
+                "Wind-Speed": "03",
+                "Raw-Report": "LIPZ 051420Z VRB03KT CAVOK 11/00 Q1023 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LIPZ",
+                "Time": "051420Z",
+                "Dewpoint": "00",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "11",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:32:59 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1950": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 15:05",
+            "route": "INBOM ABLEG",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:00 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:00 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "290",
+                "Wind-Gust": "",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Remarks": "",
+                "Station": "LPPR",
+                "Time": "051400Z",
+                "Dewpoint": "08",
                 "Remarks-Info": {
                     "Dew-Decimal": "",
                     "Temp-Decimal": ""
@@ -1840,8 +2823,842 @@
                 "Runway-Vis-List": [],
                 "Temperature": "14",
                 "Wind-Variable-Dir": [
+                    "260",
+                    "320"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1947": [
+        {
+            "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 15:00",
+            "route": "MANIK XAMAX",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:02 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:19 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "290",
+                "Wind-Gust": "",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPR 051400Z 29004KT 260V320 CAVOK 14/08 Q1029",
+                "Remarks": "",
+                "Station": "LPPR",
+                "Time": "051400Z",
+                "Dewpoint": "08",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "14",
+                "Wind-Variable-Dir": [
+                    "260",
+                    "320"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:02 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP948": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LSGG": [
+                    {
+                        "latitude": 46.23806,
+                        "longitude": 6.10895
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 16:30",
+            "route": "IXIDA TOSDI UN745 ZMR UN976 DGO LPA MAKIL UN871 LTP UZ116 BELUS",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:03 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:03 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:50 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1027",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LSGG 051420Z 04005KT 360V070 CAVOK 04/M02 Q1027 NOSIG",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "040",
+                "Wind-Gust": "",
+                "Wind-Speed": "05",
+                "Raw-Report": "LSGG 051420Z 04005KT 360V070 CAVOK 04/M02 Q1027 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LSGG",
+                "Time": "051420Z",
+                "Dewpoint": "M02",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "04",
+                "Wind-Variable-Dir": [
+                    "360",
+                    "070"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1044": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LEBL": [
+                    {
+                        "latitude": 41.29707,
+                        "longitude": 2.078463
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:10",
+            "arr_time": "2019-02-05 16:00",
+            "route": "IDBID UREDI UN870 PONEN T600 CASPE",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:04 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:04 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:50 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1025",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "040"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LEBL 051400Z 21008KT 9999 FEW040 14/07 Q1025 NOSIG",
+                "Visibility": "9999",
+                "Wind-Direction": "210",
+                "Wind-Gust": "",
+                "Wind-Speed": "08",
+                "Raw-Report": "LEBL 051400Z 21008KT 9999 FEW040 14/07 Q1025 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LEBL",
+                "Time": "051400Z",
+                "Dewpoint": "07",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "14",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP439B": [
+        {
+            "origin": {
+                "LFPO": [
+                    {
+                        "latitude": 48.723331,
+                        "longitude": 2.379444
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:15",
+            "arr_time": "2019-02-05 16:40",
+            "route": "LGL UT176 KURIS UN872 ERIGA UZ218 BAKUP BATAX INBOM",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:05 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:43 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1027",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "020"
+                    ],
+                    [
+                        "BKN",
+                        "260"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LFPO 051400Z 21005KT 180V250 9999 FEW020 BKN260 08/03 Q1027 NOSIG",
+                "Visibility": "9999",
+                "Wind-Direction": "210",
+                "Wind-Gust": "",
+                "Wind-Speed": "05",
+                "Raw-Report": "LFPO 051400Z 21005KT 180V250 9999 FEW020 BKN260 08/03 Q1027 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LFPO",
+                "Time": "051400Z",
+                "Dewpoint": "03",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "08",
+                "Wind-Variable-Dir": [
+                    "180",
+                    "250"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:05 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1684": [
+        {
+            "origin": {
+                "LPMA": [
+                    {
+                        "latitude": 32.69788,
+                        "longitude": -16.774401
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:10",
+            "arr_time": "2019-02-05 15:50",
+            "route": "DEGUN NARTA UNPOT",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:06 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:33:04 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1026",
+                "Cloud-List": [
+                    [
+                        "SCT",
+                        "016"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPMA 051400Z 05006KT 010V090 9999 SCT016 19/13 Q1026",
+                "Visibility": "9999",
+                "Wind-Direction": "050",
+                "Wind-Gust": "",
+                "Wind-Speed": "06",
+                "Raw-Report": "LPMA 051400Z 05006KT 010V090 9999 SCT016 19/13 Q1026",
+                "Remarks": "",
+                "Station": "LPMA",
+                "Time": "051400Z",
+                "Dewpoint": "13",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "19",
+                "Wind-Variable-Dir": [
                     "010",
-                    "100"
+                    "090"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:06 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP576N": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EDDF": [
+                    {
+                        "latitude": 50.037796,
+                        "longitude": 8.555783
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:20",
+            "arr_time": "2019-02-05 17:30",
+            "route": "IXIDA TOSDI UN745 ZMR UN873 OBATO UM163 TSU UN858 VALEK UM163 DIK UT856 ADUSU T856 NIVNU T180 UNOKO",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:07 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:07 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:44 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "020"
+                    ],
+                    [
+                        "BKN",
+                        "037"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "EDDF 051420Z 22004KT 180V240 9999 FEW020 BKN037 04/M01 Q1029 NOSIG",
+                "Visibility": "9999",
+                "Wind-Direction": "220",
+                "Wind-Gust": "",
+                "Wind-Speed": "04",
+                "Raw-Report": "EDDF 051420Z 22004KT 180V240 9999 FEW020 BKN037 04/M01 Q1029 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "EDDF",
+                "Time": "051420Z",
+                "Dewpoint": "M01",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "04",
+                "Wind-Variable-Dir": [
+                    "180",
+                    "240"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP554": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EDDM": [
+                    {
+                        "latitude": 48.353779,
+                        "longitude": 11.78608
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:40",
+            "arr_time": "2019-02-05 17:50",
+            "route": "IXIDA TOSDI UN745 ZMR UN873 OBATO UM163 TSU UN858 AMASI UM149 BOMBI T104 ANORA",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:08 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:08 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:48 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [
+                    [
+                        "BKN",
+                        "005"
+                    ]
+                ],
+                "Flight-Rules": "IFR",
+                "Other-List": [
+                    "BR"
+                ],
+                "Sanitized": "EDDM 051420Z 30003KT 240V330 4000 BR BKN005 M03/M04 Q1029 TEMPO 5000",
+                "Visibility": "4000",
+                "Wind-Direction": "300",
+                "Wind-Gust": "",
+                "Wind-Speed": "03",
+                "Raw-Report": "EDDM 051420Z 30003KT 240V330 4000 BR BKN005 M03/M04 Q1029 TEMPO 5000",
+                "Remarks": "TEMPO 5000",
+                "Station": "EDDM",
+                "Time": "051420Z",
+                "Dewpoint": "M04",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "M03",
+                "Wind-Variable-Dir": [
+                    "240",
+                    "330"
+                ],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            }
+        }
+    ],
+    "TAP1037": [
+        {
+            "origin": {
+                "LEBL": [
+                    {
+                        "latitude": 41.29707,
+                        "longitude": 2.078463
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:30",
+            "arr_time": "2019-02-05 16:25",
+            "route": "SENIA UZ596 NEXAS UN975 CCS EXONA",
+            "dep_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:09 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:31:50 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1025",
+                "Cloud-List": [
+                    [
+                        "FEW",
+                        "040"
+                    ]
+                ],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LEBL 051400Z 21008KT 9999 FEW040 14/07 Q1025 NOSIG",
+                "Visibility": "9999",
+                "Wind-Direction": "210",
+                "Wind-Gust": "",
+                "Wind-Speed": "08",
+                "Raw-Report": "LEBL 051400Z 21008KT 9999 FEW040 14/07 Q1025 NOSIG",
+                "Remarks": "NOSIG",
+                "Station": "LEBL",
+                "Time": "051400Z",
+                "Dewpoint": "07",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "14",
+                "Wind-Variable-Dir": [],
+                "Units": {
+                    "Altimeter": "hPa",
+                    "Altitude": "ft",
+                    "Temperature": "C",
+                    "Visibility": "m",
+                    "Wind-Speed": "kt"
+                }
+            },
+            "arr_metar": {
+                "Meta": {
+                    "Timestamp": "Tue, 05 Feb 2019 14:33:09 GMT",
+                    "Cache-Timestamp": "Tue, 05 Feb 2019 14:32:18 GMT",
+                    "note": "The /api/<report-type> endpoint will switch to the /api/preview/<report-type> format on April 1, 2019. If you need more time, use /api/legacy/<report-type>"
+                },
+                "Altimeter": "1029",
+                "Cloud-List": [],
+                "Flight-Rules": "VFR",
+                "Other-List": [],
+                "Sanitized": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Visibility": "CAVOK",
+                "Wind-Direction": "070",
+                "Wind-Gust": "15",
+                "Wind-Speed": "04",
+                "Raw-Report": "LPPT 051400Z 07004G15KT 040V120 CAVOK 15/05 Q1029",
+                "Remarks": "",
+                "Station": "LPPT",
+                "Time": "051400Z",
+                "Dewpoint": "05",
+                "Remarks-Info": {
+                    "Dew-Decimal": "",
+                    "Temp-Decimal": ""
+                },
+                "Runway-Vis-List": [],
+                "Temperature": "15",
+                "Wind-Variable-Dir": [
+                    "040",
+                    "120"
                 ],
                 "Units": {
                     "Altimeter": "hPa",

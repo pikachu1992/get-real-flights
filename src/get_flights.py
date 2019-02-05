@@ -3,9 +3,13 @@ from collections import defaultdict
 import json
 import random
 
-def get_flights(total):
+def get_flights(total=int):
+   
     with open('data/output.json', 'r') as file:
         items = json.loads(file.read())
+
+    if not total:
+        total = len(items)
 
     flights = defaultdict(list)
     callsigns = []
