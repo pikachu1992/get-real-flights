@@ -1,7 +1,15 @@
 {
-    "TAP029": [
+    "TAP288": [
         {
             "origin": {
+                "FNLU": [
+                    {
+                        "latitude": -8.85837,
+                        "longitude": 13.23117
+                    }
+                ]
+            },
+            "destination": {
                 "LPPT": [
                     {
                         "latitude": 38.781311,
@@ -9,20 +17,12 @@
                     }
                 ]
             },
-            "destination": {
-                "SBSV": [
-                    {
-                        "latitude": -12.9109,
-                        "longitude": -38.331001
-                    }
-                ]
-            },
-            "aircraft": "A339",
-            "dep_time": "2019-02-03 16:30",
-            "arr_time": "2019-02-04 01:05"
+            "aircraft": "A343",
+            "dep_time": "2019-02-05 08:25",
+            "arr_time": "2019-02-05 16:15"
         }
     ],
-    "TAP035": [
+    "TAP1527": [
         {
             "origin": {
                 "LPPT": [
@@ -33,19 +33,19 @@
                 ]
             },
             "destination": {
-                "SBFZ": [
+                "DGAA": [
                     {
-                        "latitude": -3.77628,
-                        "longitude": -38.532501
+                        "latitude": 5.605186,
+                        "longitude": -0.16678
                     }
                 ]
             },
-            "aircraft": "A333",
-            "dep_time": "2019-02-03 16:30",
-            "arr_time": "2019-02-04 00:10"
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 09:40",
+            "arr_time": "2019-02-05 15:15"
         }
     ],
-    "TAP209": [
+    "TAP103": [
         {
             "origin": {
                 "LPPT": [
@@ -56,30 +56,21 @@
                 ]
             },
             "destination": {
-                "KJFK": [
+                "SBCF": [
                     {
-                        "latitude": 40.639751,
-                        "longitude": -73.7789
+                        "latitude": -19.633699,
+                        "longitude": -43.9688
                     }
                 ]
             },
             "aircraft": "A332",
-            "dep_time": "2019-02-03 17:00",
-            "arr_time": "2019-02-04 01:00"
+            "dep_time": "2019-02-05 09:50",
+            "arr_time": "2019-02-05 19:35"
         }
     ],
-    "TAP259": [],
-    "TAP082": [
+    "TAP059": [
         {
             "origin": {
-                "SBGR": [
-                    {
-                        "latitude": -23.431999,
-                        "longitude": -46.469501
-                    }
-                ]
-            },
-            "destination": {
                 "LPPT": [
                     {
                         "latitude": 38.781311,
@@ -87,14 +78,30 @@
                     }
                 ]
             },
-            "aircraft": "A339",
-            "dep_time": "2019-02-03 19:45",
-            "arr_time": "2019-02-04 05:35"
+            "destination": {
+                "SBBR": [
+                    {
+                        "latitude": -15.8711,
+                        "longitude": -47.918598
+                    }
+                ]
+            },
+            "aircraft": "A333",
+            "dep_time": "2019-02-05 09:50",
+            "arr_time": "2019-02-05 19:30"
         }
     ],
-    "TAP074": [
+    "TAP071": [
         {
             "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
                 "SBGL": [
                     {
                         "latitude": -22.808901,
@@ -102,20 +109,35 @@
                     }
                 ]
             },
-            "destination": {
+            "aircraft": "A332",
+            "dep_time": "2019-02-05 10:05",
+            "arr_time": "2019-02-05 20:30"
+        }
+    ],
+    "TAP089": [
+        {
+            "origin": {
                 "LPPT": [
                     {
                         "latitude": 38.781311,
                         "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "SBGR": [
+                    {
+                        "latitude": -23.431999,
+                        "longitude": -46.469501
                     }
                 ]
             },
             "aircraft": "A332",
-            "dep_time": "2019-02-03 20:10",
-            "arr_time": "2019-02-04 05:40"
+            "dep_time": "2019-02-05 10:30",
+            "arr_time": "2019-02-05 20:55"
         }
     ],
-    "TAP1485": [
+    "TAP117": [
         {
             "origin": {
                 "LPPT": [
@@ -126,98 +148,111 @@
                 ]
             },
             "destination": {
-                "GOBD": [
+                "SBPA": [
                     {
-                        "latitude": 14.671111,
-                        "longitude": -17.066944
-                    }
-                ]
-            },
-            "aircraft": "A21N",
-            "dep_time": "2019-02-03 20:50",
-            "arr_time": "2019-02-04 01:00"
-        }
-    ],
-    "TAP1549": [
-        {
-            "origin": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
-                    }
-                ]
-            },
-            "destination": {
-                "GVAC": [
-                    {
-                        "latitude": 16.741381,
-                        "longitude": -22.9494
-                    }
-                ]
-            },
-            "aircraft": "A320",
-            "dep_time": "2019-02-03 21:35",
-            "arr_time": "2019-02-04 01:45"
-        }
-    ],
-    "TAP1543": [
-        {
-            "origin": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
-                    }
-                ]
-            },
-            "destination": {
-                "GVNP": [
-                    {
-                        "latitude": 14.92448,
-                        "longitude": -23.4935
-                    }
-                ]
-            },
-            "aircraft": "A21N",
-            "dep_time": "2019-02-03 21:05",
-            "arr_time": "2019-02-04 01:30"
-        }
-    ],
-    "TAP058": [],
-    "TAP746": [],
-    "TAP286": [],
-    "TAP224": [],
-    "TAP828": [],
-    "TAP1528": [],
-    "TAP1200": [],
-    "TAP1478": [],
-    "TAP202": [
-        {
-            "origin": {
-                "KEWR": [
-                    {
-                        "latitude": 40.692501,
-                        "longitude": -74.168602
-                    }
-                ]
-            },
-            "destination": {
-                "LPPT": [
-                    {
-                        "latitude": 38.781311,
-                        "longitude": -9.13591
+                        "latitude": -29.9944,
+                        "longitude": -51.171398
                     }
                 ]
             },
             "aircraft": "A332",
-            "dep_time": "2019-02-03 23:15",
-            "arr_time": "2019-02-04 05:55"
+            "dep_time": "2019-02-05 11:00",
+            "arr_time": "2019-02-05 22:30"
         }
     ],
-    "TAP080": [],
-    "TAP087": [],
-    "TAP1693": [
+    "TAP643": [
+        {
+            "origin": {
+                "EBBR": [
+                    {
+                        "latitude": 50.901379,
+                        "longitude": 4.484444
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 12:05",
+            "arr_time": "2019-02-05 14:50"
+        }
+    ],
+    "TAP1275": [
+        {
+            "origin": {
+                "LOWW": [
+                    {
+                        "latitude": 48.110271,
+                        "longitude": 16.569719
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 12:15",
+            "arr_time": "2019-02-05 15:45"
+        }
+    ],
+    "TAP678": [
+        {
+            "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
+                "EHAM": [
+                    {
+                        "latitude": 52.308609,
+                        "longitude": 4.763889
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 12:10",
+            "arr_time": "2019-02-05 15:00"
+        }
+    ],
+    "TAP557J": [
+        {
+            "origin": {
+                "EDDM": [
+                    {
+                        "latitude": 48.353779,
+                        "longitude": 11.78608
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 11:40",
+            "arr_time": "2019-02-05 14:55"
+        }
+    ],
+    "TAP223": [
         {
             "origin": {
                 "LPPT": [
@@ -228,27 +263,140 @@
                 ]
             },
             "destination": {
-                "LPMA": [
+                "KMIA": [
                     {
-                        "latitude": 32.69788,
-                        "longitude": -16.774401
+                        "latitude": 25.793249,
+                        "longitude": -80.290497
+                    }
+                ]
+            },
+            "aircraft": "A333",
+            "dep_time": "2019-02-05 10:35",
+            "arr_time": "2019-02-05 19:55"
+        }
+    ],
+    "TAP931N": [
+        {
+            "origin": {
+                "LSZH": [
+                    {
+                        "latitude": 47.464722,
+                        "longitude": 8.549167
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 12:30",
+            "arr_time": "2019-02-05 15:20"
+        }
+    ],
+    "TAP939L": [
+        {
+            "origin": {
+                "LSGG": [
+                    {
+                        "latitude": 46.23806,
+                        "longitude": 6.10895
+                    }
+                ]
+            },
+            "destination": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 12:45",
+            "arr_time": "2019-02-05 15:00"
+        }
+    ],
+    "TAP1331": [
+        {
+            "origin": {
+                "EGKK": [
+                    {
+                        "latitude": 51.148048,
+                        "longitude": -0.19027
+                    }
+                ]
+            },
+            "destination": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:00",
+            "arr_time": "2019-02-05 15:15"
+        }
+    ],
+    "TAP764": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "ENGM": [
+                    {
+                        "latitude": 60.193909,
+                        "longitude": 11.10036
                     }
                 ]
             },
             "aircraft": "A320",
-            "dep_time": "2019-02-03 23:15",
-            "arr_time": "2019-02-04 01:00"
+            "dep_time": "2019-02-05 13:00",
+            "arr_time": "2019-02-05 17:10"
         }
     ],
-    "TAP075": [],
-    "TAP1250": [],
-    "TAP1512": [
+    "TAP1336": [
         {
             "origin": {
-                "DIAP": [
+                "LPPT": [
                     {
-                        "latitude": 5.261386,
-                        "longitude": -3.92629
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EGKK": [
+                    {
+                        "latitude": 51.148048,
+                        "longitude": -0.19027
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 13:05",
+            "arr_time": "2019-02-05 15:45"
+        }
+    ],
+    "TAP673": [
+        {
+            "origin": {
+                "EHAM": [
+                    {
+                        "latitude": 52.308609,
+                        "longitude": 4.763889
                     }
                 ]
             },
@@ -261,17 +409,86 @@
                 ]
             },
             "aircraft": "A20N",
-            "dep_time": "2019-02-03 00:15",
-            "arr_time": "2019-02-03 05:30"
+            "dep_time": "2019-02-05 12:40",
+            "arr_time": "2019-02-05 15:40"
         }
     ],
-    "TAP118": [
+    "TAP672": [
         {
             "origin": {
-                "SBPA": [
+                "LPPT": [
                     {
-                        "latitude": -29.9944,
-                        "longitude": -51.171398
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EHAM": [
+                    {
+                        "latitude": 52.308609,
+                        "longitude": 4.763889
+                    }
+                ]
+            },
+            "aircraft": "A21N",
+            "dep_time": "2019-02-05 13:00",
+            "arr_time": "2019-02-05 16:05"
+        }
+    ],
+    "TAP1014": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LEMD": [
+                    {
+                        "latitude": 40.493549,
+                        "longitude": -3.56676
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:15",
+            "arr_time": "2019-02-05 14:30"
+        }
+    ],
+    "TAP1861": [
+        {
+            "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
+                "LPPD": [
+                    {
+                        "latitude": 37.74118,
+                        "longitude": -25.6978
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:20",
+            "arr_time": "2019-02-05 15:45"
+        }
+    ],
+    "TAP841": [
+        {
+            "origin": {
+                "LIRF": [
+                    {
+                        "latitude": 41.80447,
+                        "longitude": 12.25079
                     }
                 ]
             },
@@ -283,9 +500,379 @@
                     }
                 ]
             },
-            "aircraft": "A332",
-            "dep_time": "2019-02-03 00:10",
-            "arr_time": "2019-02-03 10:50"
+            "aircraft": "A21N",
+            "dep_time": "2019-02-05 13:25",
+            "arr_time": "2019-02-05 16:30"
+        }
+    ],
+    "TAP926G": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LSZH": [
+                    {
+                        "latitude": 47.464722,
+                        "longitude": 8.549167
+                    }
+                ]
+            },
+            "aircraft": "A21N",
+            "dep_time": "2019-02-05 13:20",
+            "arr_time": "2019-02-05 16:10"
+        }
+    ],
+    "TAP694": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "ELLX": [
+                    {
+                        "latitude": 49.623329,
+                        "longitude": 6.204444
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 13:30",
+            "arr_time": "2019-02-05 16:20"
+        }
+    ],
+    "TAP1359": [
+        {
+            "origin": {
+                "EGLL": [
+                    {
+                        "latitude": 51.471626,
+                        "longitude": -0.467081
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:40",
+            "arr_time": "2019-02-05 16:20"
+        }
+    ],
+    "TAP867": [
+        {
+            "origin": {
+                "LIPZ": [
+                    {
+                        "latitude": 45.505268,
+                        "longitude": 12.35194
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 10:40",
+            "arr_time": "2019-02-05 13:50"
+        }
+    ],
+    "TAP1950": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 15:05"
+        }
+    ],
+    "TAP1205": [
+        {
+            "origin": {
+                "EPWA": [
+                    {
+                        "latitude": 52.165749,
+                        "longitude": 20.967119
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 13:55",
+            "arr_time": "2019-02-05 18:05"
+        }
+    ],
+    "TAP1947": [
+        {
+            "origin": {
+                "LPPR": [
+                    {
+                        "latitude": 41.248051,
+                        "longitude": -8.68138
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 15:00"
+        }
+    ],
+    "TAP948": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LSGG": [
+                    {
+                        "latitude": 46.23806,
+                        "longitude": 6.10895
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:00",
+            "arr_time": "2019-02-05 16:30"
+        }
+    ],
+    "TAP1044": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "LEBL": [
+                    {
+                        "latitude": 41.29707,
+                        "longitude": 2.078463
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:10",
+            "arr_time": "2019-02-05 16:00"
+        }
+    ],
+    "TAP439B": [
+        {
+            "origin": {
+                "LFPO": [
+                    {
+                        "latitude": 48.723331,
+                        "longitude": 2.379444
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:15",
+            "arr_time": "2019-02-05 16:40"
+        }
+    ],
+    "TAP1684": [
+        {
+            "origin": {
+                "LPMA": [
+                    {
+                        "latitude": 32.69788,
+                        "longitude": -16.774401
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:10",
+            "arr_time": "2019-02-05 15:50"
+        }
+    ],
+    "TAP576N": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EDDF": [
+                    {
+                        "latitude": 50.037796,
+                        "longitude": 8.555783
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:20",
+            "arr_time": "2019-02-05 17:30"
+        }
+    ],
+    "TAP554": [
+        {
+            "origin": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "destination": {
+                "EDDM": [
+                    {
+                        "latitude": 48.353779,
+                        "longitude": 11.78608
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:40",
+            "arr_time": "2019-02-05 17:50"
+        }
+    ],
+    "": [],
+    "TAP1037": [
+        {
+            "origin": {
+                "LEBL": [
+                    {
+                        "latitude": 41.29707,
+                        "longitude": 2.078463
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A319",
+            "dep_time": "2019-02-05 14:30",
+            "arr_time": "2019-02-05 16:25"
+        }
+    ],
+    "TAP789": [
+        {
+            "origin": {
+                "ESSA": [
+                    {
+                        "latitude": 59.651939,
+                        "longitude": 17.91861
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:05",
+            "arr_time": "2019-02-05 18:25"
+        }
+    ],
+    "TAP1823": [],
+    "TAP1860": [
+        {
+            "origin": {
+                "LPPD": [
+                    {
+                        "latitude": 37.74118,
+                        "longitude": -25.6978
+                    }
+                ]
+            },
+            "destination": {
+                "LPPT": [
+                    {
+                        "latitude": 38.781311,
+                        "longitude": -9.13591
+                    }
+                ]
+            },
+            "aircraft": "A320",
+            "dep_time": "2019-02-05 14:30",
+            "arr_time": "2019-02-05 16:45"
         }
     ]
 }
