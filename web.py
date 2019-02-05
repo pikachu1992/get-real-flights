@@ -19,16 +19,16 @@ def get_flight():
     max_flights = int(request.form['max_flights'])
     flights = get_flights.get_flights(max_flights)
     output = ''
-    try:
-        metar_dep = flights[item][0][0]['dep_metar']['Raw-Report']
-    except:
-        metar_dep = 'NOT AVAILABLE'
-    try:
-        metar_arr = flights[item][0][0]['arr_metar']['Raw-Report']
-    except:
-        metar_arr = 'NOT AVAILABLE'
-
+   
     for item in flights:
+        try:
+            metar_dep = flights[item][0][0]['dep_metar']['Raw-Report']
+        except:
+            metar_dep = 'NOT AVAILABLE'
+        try:
+            metar_arr = flights[item][0][0]['arr_metar']['Raw-Report']
+        except:
+            metar_arr = 'NOT AVAILABLE'
         output += '''
             <br>Callsign: {0}
             <br>Origin: {1}
